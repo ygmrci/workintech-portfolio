@@ -1,16 +1,77 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and multi-language personal portfolio website built with **React** and **Tailwind CSS**.  
+This project showcases my frontend skills, design decisions, and component-based architecture.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 GitHub Repository
 
-## Expanding the ESLint configuration
+👉 **https://github.com/ygmrci/portfolio**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Technologies Used
+
+- React
+- Vite
+- Tailwind CSS
+- Context API
+- LocalStorage
+- Axios (demo usage)
+- Responsive Design (Grid & Flexbox)
+
+---
+
+## ✨ Features
+
+- Fully responsive design (mobile, tablet, desktop)
+- Dark / Light mode support
+- Turkish 🇹🇷 & English 🇬🇧 language support (custom implementation)
+- Global state management with Context API
+- Persisted user preferences using LocalStorage
+- Dynamic project listing
+- Clean, accessible, and semantic UI structure
+
+---
+
+## 🧠 State Management
+
+- Language and theme states are managed globally using **React Context API**
+- User preferences (language & theme) are stored in **LocalStorage**
+- Components consume only required context values to avoid unnecessary re-renders
+
+---
+
+## 📱 Responsive Design Decisions
+
+- Hero section is simplified on mobile screens for better readability
+- Headline and social links are hidden on small screens to reduce visual noise
+- Social links are always accessible from the footer on mobile
+- Layout adapts using Tailwind breakpoints (`sm`, `md`, `lg`)
+- Grid and Flexbox are used together for flexible layouts
+
+---
+
+## 📁 Project Structure
+
+```txt
+src/
+├── assets/
+│   └── images/
+├── components/
+│   ├── hero/
+│   ├── projects/
+│   ├── skills/
+│   └── footer/
+├── context/
+│   └── LanguageContext.jsx
+├── data/
+│   ├── data.tr.js
+│   └── data.en.js
+├── App.jsx
+└── main.jsx
+```
