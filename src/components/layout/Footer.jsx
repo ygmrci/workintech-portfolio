@@ -16,8 +16,6 @@ export default function Footer() {
     { label: "Linkedin", href: "https://linkedin.com/in/yagmurgamzecimen" },
   ];
 
-  console.log("contactSection.links:", data?.contactSection?.links);
-
   return (
     <section
       id="footer"

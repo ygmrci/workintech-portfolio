@@ -149,5 +149,11 @@ const dataEN = {
       },
     ],
   },
+  axiosSection: {
+    title: "Axios Demo (Reqres POST)",
+    description:
+      "We create a payload based on selected language and POST it to Reqres.",
+    button: "POST /workintech",
+  },
 };
 export default dataEN;

@@ -5,8 +5,10 @@ This project showcases my frontend skills, design decisions, and component-based
 
 ---
 
-## 🔗 Live Demo
+Axios Demo (Technical Showcase)
+This section demonstrates client-side data submission using Axios and state management.
 
+## 🔗 Live Demo
 
 ## 📂 GitHub Repository
 

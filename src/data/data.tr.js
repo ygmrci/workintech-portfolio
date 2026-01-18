@@ -16,7 +16,7 @@ const dataTR = {
       {
         logo: "images/linkedin.png",
         altText: "LinkedIn",
-        link: "www.linkedin.com/in/yagmurgamzecimen",
+        link: "https://www.linkedin.com/in/yagmurgamzecimen/",
       },
     ],
     ctaText: { hireMe: "Hire Me", viewProjects: "Projeleri Gör" },
@@ -120,7 +120,8 @@ const dataTR = {
         id: "pizza",
         title: "Pizza Order",
         description:
-          "A React-based pizza ordering application where users can customize their pizza, manage quantities, and place orders. End-to-end tests are implemented with Cypress.",
+          "React ile geliştirilmiş pizza sipariş uygulaması. Kullanıcılar pizzalarını özelleştirir, adet seçer ve sipariş verir. Uçtan uca testler Cypress ile yazıldı.",
+
         image: "pizza.png",
         tags: ["React", "Tailwind", "Cypress"],
         githubUrl: "https://github.com/ygmrci/Order_Pizza_With_React",
@@ -153,6 +154,12 @@ const dataTR = {
         href: "https://www.linkedin.com/in/yagmurgamzecimen/",
       },
     ],
+  },
+  axiosSection: {
+    title: "Axios Demo (Reqres POST)",
+    description:
+      "Seçili dile göre payload hazırlanır ve Reqres API'ye POST atılır.",
+    button: "POST /workintech",
   },
 };
 export default dataTR;
