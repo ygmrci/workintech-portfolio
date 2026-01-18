@@ -1,0 +1,44 @@
+{
+  "workintech": [
+    {
+      "id": "ec5b",
+      "locale": "en",
+      "name": "Yağmur Gamze Çimen",
+      "greeting": "Hi,",
+      "headline": "Creative thinker Minimalism lover",
+      "source": "portfolio"
+    },
+    {
+      "id": "96c8",
+      "locale": "tr",
+      "name": "Yağmur Gamze Çimen",
+      "greeting": "Merhaba,",
+      "headline": "Yaratıcı düşünen Minimalizm seven",
+      "source": "portfolio"
+    },
+    {
+      "id": "6d10",
+      "locale": "tr",
+      "name": "Yağmur Gamze Çimen",
+      "greeting": "Merhaba,",
+      "headline": "Yaratıcı düşünen Minimalizm seven",
+      "source": "portfolio"
+    },
+    {
+      "id": "abd0",
+      "locale": "tr",
+      "name": "Yağmur Gamze Çimen",
+      "greeting": "Merhaba,",
+      "headline": "Yaratıcı düşünen Minimalizm seven",
+      "source": "portfolio"
+    },
+    {
+      "id": "fa64",
+      "locale": "en",
+      "name": "Yağmur Gamze Çimen",
+      "greeting": "Hi,",
+      "headline": "Creative thinker Minimalism lover",
+      "source": "portfolio"
+    }
+  ]
+}
