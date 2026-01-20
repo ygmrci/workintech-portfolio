@@ -45,7 +45,8 @@ export default function AxiosDemo() {
   return (
     <section className="mx-auto mt-10 max-w-6xl px-4 sm:px-6 md:px-12">
       <div className="rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-950">
-        <h2 className="text-xl font-semibold">Axios Demo (Reqres POST)</h2>
+        <h2 className="text-xl font-semibold">Axios Demo (Remote POST)</h2>
+
         <p className="mt-2 text-sm opacity-80">
           Seçili dile göre payload hazırlanır ve Reqres API'ye POST atılır.
         </p>

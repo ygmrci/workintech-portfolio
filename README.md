@@ -5,10 +5,22 @@ This project showcases my frontend skills, design decisions, and component-based
 
 ---
 
-Axios Demo (Technical Showcase)
-This section demonstrates client-side data submission using Axios and state management.
+## 🔁 Axios Demo
+
+A payload is dynamically generated based on the selected language and sent via **Axios** as a **POST request** to a remote API deployed on **Render**.  
+The response returned from the API is then displayed in the UI.
+
+> ⚠️ **Note:**  
+> The API is hosted on Render’s free plan.  
+> Due to service sleep behavior, the first request may take a few seconds to respond.
+
+---
 
 ## 🔗 Live Demo
+
+_(Add your Vercel live link here)_
+
+---
 
 ## 📂 GitHub Repository
 
@@ -23,7 +35,7 @@ This section demonstrates client-side data submission using Axios and state mana
 - Tailwind CSS
 - Context API
 - LocalStorage
-- Axios (demo usage)
+- Axios (remote API demo)
 - Responsive Design (Grid & Flexbox)
 
 ---
@@ -43,8 +55,8 @@ This section demonstrates client-side data submission using Axios and state mana
 ## 🧠 State Management
 
 - Language and theme states are managed globally using **React Context API**
-- User preferences (language & theme) are stored in **LocalStorage**
-- Components consume only required context values to avoid unnecessary re-renders
+- User preferences (language & theme) are persisted in **LocalStorage**
+- Components consume only the required context values to prevent unnecessary re-renders
 
 ---
 
@@ -52,9 +64,9 @@ This section demonstrates client-side data submission using Axios and state mana
 
 - Hero section is simplified on mobile screens for better readability
 - Headline and social links are hidden on small screens to reduce visual noise
-- Social links are always accessible from the footer on mobile
+- Social links remain accessible via the footer on mobile devices
 - Layout adapts using Tailwind breakpoints (`sm`, `md`, `lg`)
-- Grid and Flexbox are used together for flexible layouts
+- Grid and Flexbox are combined for flexible and scalable layouts
 
 ---
 
